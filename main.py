@@ -79,7 +79,7 @@ serv2 = ttk.Button(root, text=server2, width=15, style="CustOM.TButton", command
 serv3 = ttk.Button(root, text=server3, width=15, style="CustOM.TButton", command=selserv3)
 
 def showabout():
-    messagebox.showinfo("About AdGuard VPN Cli GUI", "AdGuard VPN Cli GUI by pablo-chitaksa\nAdGuard VPN Cli GUI is NOT associated with AdGuard.\n\nv0.1")
+    messagebox.showinfo("About AdGuard VPN Cli GUI", "AdGuard VPN Cli GUI by pablo-chitaksa\nAdGuard VPN Cli GUI is NOT associated with AdGuard.\n\nv0.1\nLicensed under GPL3.0-License")
 
 aboutbtn = ttk.Button(root, text="About", style="CustOM.TButton", command=showabout)
 
