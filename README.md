@@ -1,8 +1,8 @@
 # AdGuard VPN Cli GUI
-Simple interface for adguardvpn-cli program.
+Simple interface for adguardvpn-cli program. Written on Python 3.14 with Tkinter
 
 ## How to install and launch it
-**IMPORTANT: BEFORE INSTALLING PLEASE MAKE SURE THAT YOU INSTALLED AND LOGGED IN adguardvpn-cli.
+**IMPORTANT: BEFORE INSTALLING PLEASE MAKE SURE THAT YOU INSTALLED AND LOGGED IN adguardvpn-cli. ALSO YOU NEED TO INSTALL TKINTER WITH YOUR PACKET MANAGER
 You can watch how to install adguardvpn-cli at original repository: https://github.com/AdguardTeam/AdGuardVPNCLI**
 
 Download repo from github with site or git: 
