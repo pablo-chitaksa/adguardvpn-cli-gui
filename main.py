@@ -16,10 +16,10 @@ server = server1
 def conn():
     connect(server)
 def dconn():
-    if statusc == "connected":
+    try:
         disconnect()
-    else:
-        print("VPN Is disconnected")
+    except:
+        print("Error! Cant disconnect")
 # Window settings
 root.configure(bg="grey")
 root.geometry("800x600")
